@@ -1,0 +1,18 @@
+{
+  "name": "meu-shape-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meu Shape: calendário, treinos, histórico e armazenamento local para Android via Capacitor.",
+  "scripts": {
+    "build": "node build-web.mjs",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

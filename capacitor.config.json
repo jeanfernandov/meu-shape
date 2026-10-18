@@ -1,0 +1,9 @@
+{
+  "appId": "com.meushape.app",
+  "appName": "Meu Shape",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
